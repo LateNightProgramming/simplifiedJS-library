@@ -46,4 +46,4 @@ square(x):
     returns x^2
 
 declare(name,actions):
-  creates a function whos name is equal to the name variable that contains the contents of actions, both must be in string form i.e declare("func","console.log(1); console.log(2)") = function func() {console.log(1); console.log(2);}
+  creates a function whos name is equal to argument 1 that contains the contents of argument 2, both must be in string form i.e declare("func","console.log(1); console.log(2)") = function func() {console.log(1); console.log(2);}
