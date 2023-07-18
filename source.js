@@ -101,6 +101,10 @@ function isOdd(item) {
     }
 }
 
+function square(item) {
+    return Math.pow(item,2)
+}
+
 function declare(name,item) {
     eval(name + " = function() {" + item + "}");
 }
