@@ -69,11 +69,6 @@ function isOdd(item) {
     }
 }
 
-//console.log("hello world") = print("hello world")
-//console.log("hello","world") = print(["hello","world"]) //kinda flawed not gonna lie
-//Math.ceil() = roundUp()
-//Math.floor() = roundDown()
-//x[Math.floor(Math.random() * x.length+1)] = randChoice(x)
-//[true,false][Math.floor(Math.random() * 2)]
-//typeof() = type()
-//Math.floor(Math.floor() * max) + min = randInt(min,max)
+function declare(name,item) {
+    eval(name + " = function() {" + item + "}");
+}
