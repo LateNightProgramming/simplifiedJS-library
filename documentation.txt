@@ -1,0 +1,49 @@
+print(x) / log(x) / displayx() / write(x) / output(x):
+  print("hello world") = console.log("hello world")
+  log("hello world") = console.log("hello world")
+  display("hello world") = console.log("hello world")
+  write("hello world") = console.log("hello world")
+  output("hello world") = console.log("hello world")
+  when passing multiple arguments to these function they must be in an array e.g print(["you are a ","human"])
+
+newLine() / endLine():
+    returns a new line character e.g "hello\nworld" = "hello" + endLine() + "world" / "hello\nworld" = "hello" + newLine() + "world"
+
+randChoice(x):
+  returns a random element from an array e.g let x = [1,2,3,4,5,6]; console.log(randChoice(x))
+
+type(x):
+  returns the type of data held in a variable e.g type(1) = Number
+
+roundUp(x):
+    returns the given value rounded up to the nearest integer
+
+roundDown(x):
+  returns the given value rounded down to the nearest integer
+
+randInt(min,max):
+  returns a random integer between argument 1 and 2
+
+len(x):
+  returns the length of an array or string
+
+randBool():
+  returns either true or false randomly
+
+str(x):
+  returns a string of the given number i.e str(1) = "1"
+
+num(x):
+  returns a number from the given string i.e num("1") = 1
+
+isEven(x):
+  returns true if the given number is even, else returns false
+
+isOdd(x):
+    returns true if the fiven number is false, else returns true
+
+square(x):
+    returns x^2
+
+declare(name,actions):
+  creates a function whos name is equal to the name variable that contains the contents of actions, both must be in string form i.e declare("func","console.log(1); console.log(2)") = function func() {console.log(1); console.log(2);}
