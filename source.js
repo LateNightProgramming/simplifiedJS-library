@@ -45,6 +45,18 @@ function randChoice(item) {
     return item[Math.floor(Math.random() * array.length+1)];
 }
 
+// \n equivalents
+
+function newLine() {
+    return "\n";
+}
+
+function endLine() {
+    return "\n";
+}
+
+// end
+
 function len(item) {
     return item.length;
 }
