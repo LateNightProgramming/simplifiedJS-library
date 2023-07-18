@@ -4,6 +4,24 @@ function randInt(min, max) {
     return Math.floor(Math.random() * max) + min;
 }
 
+// console.log() equivalents
+
+function output(item) {
+    print(item);
+}
+
+function write(item) {
+    print(item);
+}
+
+function log(item) {
+    print(item);   
+}
+
+function display(item) {
+    print(item);
+}
+
 function print(item) {
     if (typeof(item) === typeof([])) {
         let evalString = "console.log("
@@ -20,6 +38,8 @@ function print(item) {
         console.log(item);
     }
 }
+
+// end 
 
 function randChoice(item) {
     return item[Math.floor(Math.random() * array.length+1)];
