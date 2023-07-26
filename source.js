@@ -108,3 +108,11 @@ function square(item) {
 function declare(name,item) {
     eval(name + " = function() {" + item + "}");
 }
+
+function isEmpty(item) {
+    if (isNaN(item) || item === undefined || item === null) {
+        return true;
+    } else {
+        return false;
+    }
+}
