@@ -1,5 +1,9 @@
 //simplified JS
 
+function random(min,max) {
+    return Math.random() * max + min;
+}
+
 function randInt(min, max) {
     return Math.floor(Math.random() * max) + min;
 }
