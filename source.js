@@ -85,8 +85,20 @@ function str(item) {
     return String(item);
 }
 
+function int(item) {
+    if (isNaN(Number(item))) {
+        throw new Error();
+    } else {
+        return Math.floor(Number(item));
+    }
+}
+
 function num(item) {
-    return Number(item);
+    if (isNaN(Number(item))) {
+        throw new Error();
+    } else {
+        return Number(item);
+    }
 }
 
 function isEven(item) {
