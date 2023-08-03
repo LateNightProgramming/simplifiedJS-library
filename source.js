@@ -65,6 +65,28 @@ function len(item) {
     return item.length;
 }
 
+function getRandBits(amount) {
+    if (amount === 1) {
+        return Math.floor(Math.random() * 2);
+    } else {
+        let arr = [];
+        for (let i = 0; i < amount; i++) {
+            arr.push(Math.floor(Math.random() * 2));
+        }
+        return arr;
+    }
+}
+
+function bool(item) {
+    if (item === 0) {
+        return false;
+    } else if (item === 1) {
+        return true
+    } else {
+        throw new Error();
+    }
+}
+
 function roundDown(item) {
     return Math.floor(item);
 }
